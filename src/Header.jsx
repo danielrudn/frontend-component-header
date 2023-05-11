@@ -28,6 +28,20 @@ subscribe(APP_CONFIG_INITIALIZED, () => {
   mergeConfig({
     AUTHN_MINIMAL_HEADER: !!process.env.AUTHN_MINIMAL_HEADER,
   }, 'Header additional config');
+  (function(){var uv=document.createElement('script');uv.type='text/javascript';uv.async=true;uv.src='//cognitiveclass.uservoice.com/widget_environment/sjqLUQN6ti1Ez9rXdGDoEA.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(uv,s)})();
+
+  UserVoice = window.UserVoice || [];
+  UserVoice.push(['showTab', 'classic_widget', {
+    mode: 'full',
+    primary_color: '#fa8c28',
+    link_color: '#0a8cc6',
+    default_mode: 'support',
+    forum_id: 317580,
+    tab_label: 'Feedback & Support',
+    tab_color: '#fa8c28',
+    tab_position: 'middle-right',
+    tab_inverted: false
+  }]);
 });
 
 const Header = ({ intl }) => {
