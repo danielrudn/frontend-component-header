@@ -36,10 +36,10 @@
   "devDependencies": {
     "@edx/brand": "npm:@edx/brand-openedx@1.2.0",
     "@edx/browserslist-config": "^1.1.1",
-    "@edx/frontend-build": "12.8.27",
-    "@edx/frontend-platform": "4.2.0",
+    "@edx/frontend-build": "12.8.51",
+    "@edx/frontend-platform": "4.5.1",
     "@edx/reactifex": "^2.1.1",
-    "@testing-library/dom": "9.2.0",
+    "@testing-library/dom": "9.3.0",
     "@testing-library/jest-dom": "5.16.5",
     "@testing-library/react": "10.4.9",
     "enzyme": "3.11.0",
@@ -57,7 +57,7 @@
     "redux-saga": "1.2.3"
   },
   "dependencies": {
-    "@edx/paragon": "20.34.0",
+    "@edx/paragon": "20.44.0",
     "@fortawesome/fontawesome-svg-core": "6.3.0",
     "@fortawesome/free-brands-svg-icons": "6.3.0",
     "@fortawesome/free-regular-svg-icons": "6.3.0",
